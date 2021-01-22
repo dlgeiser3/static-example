@@ -1,0 +1,196 @@
+/* --sans: Interstate, Montserrat, Helvetica, Arial, sans-serif; 
+--serif: minion-pro, Georgia, "Times New Roman", Times, serif;  */
+
+body {
+margin: 0;
+padding: 0;
+background-color: #FFF4EB;
+}
+
+.vertNav {
+  width: 30px;
+  background-color: black;
+  text-align: initial;
+  height: 102vh;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertText {
+  font-family: Barlow, Helvetica, Arial, sans-serif;
+  font-size: .8em;
+  font-weight: 600;
+  letter-spacing: .08em;
+  color: #FFF4EB;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg)
+}
+
+.banner {
+  background-color: #F2E4D9;
+  text-align: center;
+  /* vertical-align: middle; */
+  height: 40px;
+  margin-top: -19px;
+  padding: 0;
+}
+
+.bannerTitle {
+  font-family: Barlow, Helvetica, Arial, sans-serif;
+  padding-top: 15px;
+  font-size: .8em;
+  font-weight: 600;
+  letter-spacing: .08em;
+}
+
+.navbar {
+  display: flex;  
+  justify-content: flex-end;
+  height: 50px;
+  margin-top: 10px
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+  margin: 20px 12px;
+  font-family: Barlow, Helvetica, Arial, sans-serif;
+  font-size: .95em;
+  font-weight: 600;
+  letter-spacing: .07em;
+  vertical-align: middle;
+}
+
+.navButton {
+  font-family: Barlow, Helvetica, Arial, sans-serif;
+  font-size: .95em;
+  font-weight: 600;
+  letter-spacing: .07em;
+  height: 45px;
+  background-color: black;
+  color: #FFF4EB;
+  border: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: -13px;
+}
+
+li:hover {
+  color: #E11414
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 35px 120px;
+}
+
+.title {
+  font-family: 'Libre Baskerville', serif, Georgia, "Times New Roman", Times, serif;
+  font-size: 12em;
+  font-weight: 600;
+  line-height: .9em;
+  letter-spacing: -.07em;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 1.5em;
+  margin-top: 36px;
+}
+
+.buttons{
+  margin-top: 35px;
+}
+
+.pricingButton {
+  font-family: Barlow, Helvetica, Arial, sans-serif;
+  font-size: .95em;
+  font-weight: 600;
+  letter-spacing: .07em;
+  height: 45px;
+  background-color: black;
+  color: #FFF4EB;
+  border: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: -13px;
+  margin-right: 15px;
+}
+
+.freelanceButton {
+  font-family: Barlow, Helvetica, Arial, sans-serif;
+  font-size: .95em;
+  font-weight: 600;
+  letter-spacing: .07em;
+  height: 45px;
+  background-color: #FFF4EB;
+  color: black;
+  border: 3px solid black;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: -13px;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  margin: 140px 120px;
+}
+
+h2 {
+  font-family: Barlow, Helvetica, Arial, sans-serif;
+  font-size: 3.5em;
+  font-weight: 700;
+  letter-spacing: .01em;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.article {
+  width: 31%;
+}
+
+.articleTitle {
+  font-family: Barlow, Helvetica, Arial, sans-serif;
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: .01em;
+}
+
+.articleDesc {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.3em;
+  font-weight: 100;
+  line-height: 1.5em;
+}
+
+.read {
+  font-family: Barlow, Helvetica, Arial, sans-serif;
+  font-size: .95em;
+  font-weight: 600;
+  letter-spacing: .07em;
+  height: 45px;
+  background-color: black;
+  color: #FFF4EB;
+  border: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 0px;
+}
