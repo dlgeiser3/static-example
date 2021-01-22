@@ -9,7 +9,7 @@ background-color: #FFF4EB;
 
 .vertNav {
   width: 30px;
-  background-color: black;
+  background-color: #212121;
   text-align: initial;
   height: 102vh;
   position: fixed;
@@ -49,7 +49,8 @@ background-color: #FFF4EB;
   display: flex;  
   justify-content: flex-end;
   height: 50px;
-  margin-top: 10px
+  margin-top: 10px;
+  margin-right: 40px;
 }
 
 ul {
@@ -60,7 +61,7 @@ ul {
 
 li {
   list-style-type: none;
-  margin: 20px 12px;
+  margin: 20px 16px;
   font-family: Barlow, Helvetica, Arial, sans-serif;
   font-size: .95em;
   font-weight: 600;
@@ -74,9 +75,9 @@ li {
   font-weight: 600;
   letter-spacing: .07em;
   height: 45px;
-  background-color: black;
+  background-color: #212121;
   color: #FFF4EB;
-  border: none;
+  border: 3px solid #212121;
   padding-right: 15px;
   padding-left: 15px;
   margin-top: -13px;
@@ -120,9 +121,9 @@ li:hover {
   font-weight: 600;
   letter-spacing: .07em;
   height: 45px;
-  background-color: black;
+  background-color: #212121;
   color: #FFF4EB;
-  border: none;
+  border: 3px solid #212121;
   padding-right: 15px;
   padding-left: 15px;
   margin-top: -13px;
@@ -136,8 +137,8 @@ li:hover {
   letter-spacing: .07em;
   height: 45px;
   background-color: #FFF4EB;
-  color: black;
-  border: 3px solid black;
+  color: #212121;
+  border: 3px solid #212121;
   padding-right: 15px;
   padding-left: 15px;
   margin-top: -13px;
@@ -187,10 +188,95 @@ h2 {
   font-weight: 600;
   letter-spacing: .07em;
   height: 45px;
-  background-color: black;
+  background-color: #212121;
   color: #FFF4EB;
-  border: none;
+  border: 3px solid #212121;
   padding-right: 15px;
   padding-left: 15px;
   margin-top: 0px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin: 140px 120px;
+  justify-content: space-between;
+}
+
+.card {
+  width: 38%;
+  padding: 5px 40px 40px;
+}
+
+.pricing {
+  background-color: #212121;
+  color: white;
+}
+
+.join {
+  background-color: #F2E4D9;
+  color: #212121;
+}
+
+.cardHead {
+  font-family: Barlow, Helvetica, Arial, sans-serif;
+  font-size: 2.2em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.cardDesc {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.cardButton {
+  font-family: Barlow, Helvetica, Arial, sans-serif;
+  font-size: .95em;
+  font-weight: 600;
+  letter-spacing: .07em;
+  height: 45px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 0px;
+  border: 3px solid white;
+}
+
+.lightButton2 {
+  background-color: white;
+}
+
+.darkButton2 {
+  background-color: #212121;
+  border: 3px solid #212121;
+  color: #F2E4D9;
+}
+
+.darkButton:hover {
+  transition: color ease-in-out 0.3s, background-color ease-in-out 0.3s;
+  background-color: #FFF4EB;
+  color: #212121;
+  border: 3px solid #212121;
+}
+
+.darkButton2:hover {
+  transition: color ease-in-out 0.3s, background-color ease-in-out 0.3s;
+  background-color: #F2E4D9;
+  color: #212121;
+  border: 3px solid #212121;
+}
+
+.lightButton:hover {
+  transition: color ease-in-out 0.3s, background-color ease-in-out 0.3s;
+  background-color: #212121;
+  color: #FFF4EB;
+  border: 3px solid #212121;
+}
+
+.lightButton2:hover {
+  transition: color ease-in-out 0.3s, background-color ease-in-out 0.3s;
+  background-color: #212121;
+  color: white;
+  border: 3px solid white;
 }
