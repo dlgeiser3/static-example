@@ -83,10 +83,6 @@ li {
   margin-top: -13px;
 }
 
-li:hover {
-  color: #E11414
-}
-
 .landing {
   display: flex;
   flex-direction: column;
@@ -253,6 +249,24 @@ h2 {
   color: #F2E4D9;
 }
 
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  transition: color ease-in-out 0.3s;
+  color: #E11414
+}
+
+li {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
 .darkButton:hover {
   transition: color ease-in-out 0.3s, background-color ease-in-out 0.3s;
   background-color: #FFF4EB;
@@ -280,3 +294,6 @@ h2 {
   color: white;
   border: 3px solid white;
 }
+
+
+/* FINISH LINKS AND HOVER FOR BANNERS */
